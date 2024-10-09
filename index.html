@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <main class="container">
+      <label for="qrText">Enter your text or URL</label>
+      <input
+        type="text"
+        placeholder="Text or URL"
+        id="qrText"
+        aria-label="Text or URL"
+      />
+
+      <div id="imgBox" aria-live="polite"></div>
+
+      <button id="generateBtn" type="button">Generate QR Code</button>
+    </main>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
